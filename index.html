@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="NENLAY AI Studio — генерація візуалів і контенту для малого бізнесу." />
+    <title>NENLAY AI Studio — створюйте контент, який продає</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="NENLAY AI Studio">NENLAY<span>AI</span></a>
+      <nav aria-label="Головна навігація">
+        <a href="#prompts">Промти</a>
+        <a href="#plans">Пакети</a>
+        <a href="#how">Як це працює</a>
+      </nav>
+      <a class="button button-small" href="#signup">Спробувати безкоштовно</a>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">AI-контент для українського бізнесу</p>
+          <h1>Ідея → промт → візуал, який хочеться купити</h1>
+          <p class="hero-text">Створюйте рекламні зображення, відео та концепти для авто, нерухомості, дизайну й e-commerce без довгого продакшену.</p>
+          <div class="hero-actions">
+            <a class="button" href="#signup">Отримати безкоштовні кредити</a>
+            <a class="text-link" href="#prompts">Подивитися приклади ↓</a>
+          </div>
+          <p class="trust-note">2 безкоштовні генерації після реєстрації · без картки</p>
+        </div>
+        <div class="hero-art" aria-label="Демонстраційний AI-візуал">
+          <div class="visual visual-main"><span>NENLAY AI</span><strong>MAKE IT<br />VISIBLE</strong></div>
+          <div class="visual visual-small"><span>BEFORE</span><strong>IDEA</strong></div>
+          <div class="visual visual-small visual-offset"><span>AFTER</span><strong>RESULT</strong></div>
+        </div>
+      </section>
+
+      <section class="proof strip">
+        <p><strong>Для задач, де важлива швидкість:</strong> оголошення · social media · картки товарів · презентації · moodboards</p>
+      </section>
+
+      <section id="prompts" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Галерея промтів</p>
+          <h2>Почніть із готового результату</h2>
+          <p>Це демонстраційні концепти, а не портфоліо клієнтських робіт. Відкрийте промт, адаптуйте його під свою нішу й протестуйте безкоштовно.</p>
+        </div>
+        <div class="prompt-grid">
+          <article class="prompt-card">
+            <div class="prompt-image prompt-auto"><span>NENLAY AI</span><b>01 · AUTO</b></div>
+            <div class="card-body"><p class="tag">Авто</p><h3>Преміум-зйомка автомобіля</h3><button class="prompt-button" data-prompt="Photorealistic premium car campaign, studio lighting, wet asphalt reflections, cinematic composition, 4:5">Спробувати цей промт</button></div>
+          </article>
+          <article class="prompt-card">
+            <div class="prompt-image prompt-realestate"><span>NENLAY AI</span><b>02 · REAL ESTATE</b></div>
+            <div class="card-body"><p class="tag">Нерухомість</p><h3>Інтер’єр для оголошення</h3><button class="prompt-button" data-prompt="Warm modern apartment interior, natural morning light, editorial real-estate photography, clean styling, 4:5">Спробувати цей промт</button></div>
+          </article>
+          <article class="prompt-card">
+            <div class="prompt-image prompt-design"><span>NENLAY AI</span><b>03 · DESIGN</b></div>
+            <div class="card-body"><p class="tag">Дизайн</p><h3>Концепт брендової кампанії</h3><button class="prompt-button" data-prompt="Bold editorial product campaign, cobalt and coral palette, tactile paper, soft shadows, art direction, 1:1">Спробувати цей промт</button></div>
+          </article>
+        </div>
+        <div id="prompt-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+          <div class="modal-card"><button class="modal-close" aria-label="Закрити">×</button><p class="eyebrow">Готовий промт</p><h2 id="modal-title">Скопіюйте та протестуйте</h2><textarea id="prompt-output" readonly></textarea><button class="button" id="copy-prompt">Скопіювати промт</button><a class="text-link" href="#signup">Згенерувати у NENLAY AI →</a></div>
+        </div>
+      </section>
+
+      <section id="plans" class="section section-dark">
+        <div class="section-heading"><p class="eyebrow">Прості пакети</p><h2>Почніть із малого, масштабуйте результат</h2></div>
+        <div class="plans">
+          <article class="plan"><p class="tag">START</p><h3>Для першого тесту</h3><strong>2 безкоштовні генерації</strong><ul><li>Готові промти з галереї</li><li>Експорт для social media</li><li>Watermark NENLAY AI</li></ul><a class="button button-light" href="#signup">Спробувати</a></article>
+          <article class="plan plan-featured"><p class="tag">GROW</p><h3>Для регулярного контенту</h3><strong>Місячний пакет кредитів</strong><ul><li>Більше генерацій і форматів</li><li>Пріоритетна черга</li><li>Без watermark після оплати</li></ul><a class="button button-light" href="#signup">Обрати пакет</a></article>
+          <article class="plan"><p class="tag">PRO</p><h3>Для команди</h3><strong>Власні сценарії та workflow</strong><ul><li>Командний доступ</li><li>Брендові шаблони</li><li>Підтримка запуску кампаній</li></ul><a class="button button-light" href="#signup">Обговорити</a></article>
+        </div>
+      </section>
+
+      <section id="how" class="section steps"><div class="section-heading"><p class="eyebrow">Як це працює</p><h2>Від звичайного фото до рекламної ідеї</h2></div><div class="step-grid"><div><b>01</b><h3>Завантажте основу</h3><p>Фото товару, авто, простору або простий текстовий задум.</p></div><div><b>02</b><h3>Оберіть промт</h3><p>Візьміть готовий сценарій або допишіть власні деталі.</p></div><div><b>03</b><h3>Отримайте результат</h3><p>Протестуйте генерацію й використайте її в кампанії.</p></div></div></section>
+
+      <section id="signup" class="signup section">
+        <div><p class="eyebrow">Старт за 1 хвилину</p><h2>Отримайте безкоштовні кредити</h2><p>Зареєструйтесь, протестуйте промт і запросіть друга: за кожного нового користувача за вашим посиланням — +10 генерацій.</p></div>
+        <form id="signup-form"><label>Email<input type="email" name="email" placeholder="you@company.com" required /></label><button class="button" type="submit">Продовжити через Google</button><small>Демо-форма: підключіть OAuth/бекенд перед production-запуском.</small><p id="form-message" role="status"></p></form>
+      </section>
+
+      <section class="referral section"><div><p class="eyebrow">Запросіть друга</p><h2>Більше друзів — більше генерацій</h2><p>Після реєстрації ви отримаєте персональне referral-посилання. За кожну підтверджену реєстрацію — +10 кредитів.</p></div><div class="referral-box"><code>nenlay.ai/?ref=YOUR_CODE</code><button class="button button-small" id="copy-referral">Скопіювати</button></div></section>
+    </main>
+    <footer><a class="brand" href="#top">NENLAY<span>AI</span></a><p>Демонстраційна сторінка запуску. Реальні кейси буде додано після публікації перших робіт.</p><div><a href="mailto:hello@nenlay.ai">hello@nenlay.ai</a><a href="#signup">Спробувати безкоштовно</a></div></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
